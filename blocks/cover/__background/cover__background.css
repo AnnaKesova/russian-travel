@@ -1,0 +1,8 @@
+.cover__background {
+    max-width: 100%;
+    object-fit: contain;
+    z-index: 0;
+    grid-row: 1/-1;
+    grid-column: 1/-1;
+    opacity: 0.3;
+  }

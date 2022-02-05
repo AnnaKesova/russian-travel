@@ -1,0 +1,20 @@
+.content__photo-grid {
+    margin-bottom: calc(64px + (64 - 88) * ((100vw - 320px) / (768 - 320)));
+    margin-top: 0;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .content__photo-grid {
+      margin-bottom: calc(88px + (92 - 88) * ((100vw - 768px) / (1024 - 768)));
+      margin-left: calc(24px + (48 - 24) * ((100vw - 768px) / (1024 - 768)));
+      margin-right: calc(24px + (48 - 24) * ((100vw - 768px) / (1024 - 768)));
+    }
+  }
+  
+  @media screen and (min-width: 1024px) {
+    .content__photo-grid {
+      margin-bottom: 92px;
+      margin-left: 48px;
+      margin-right: 48px;
+    }
+  }

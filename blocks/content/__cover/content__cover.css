@@ -1,0 +1,16 @@
+.content__cover {
+    margin: 0 auto;
+    padding-bottom: 64px;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .content__cover {
+      padding-bottom: 88px;
+    }
+  }
+  
+  @media screen and (min-width: 1024px) {
+    .content__cover {
+      padding-bottom: 92px;
+    }
+  }

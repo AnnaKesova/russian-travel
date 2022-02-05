@@ -1,0 +1,18 @@
+.intro__list {
+    list-style: none;
+    margin-top: 0;
+    padding-left: 0;
+    margin-bottom: calc(64px + (88 - 64) * ((100vw - 320px) / (768 - 320)));
+  }
+  
+  @media screen and (min-width: 768px) {
+    .intro__list {
+      margin-bottom: calc(88px + (92 - 88) * ((100vw - 768px) / (1024 - 768)));
+    }
+  }
+  
+  @media screen and (min-width: 1024px) {
+    .intro__list {
+      margin-bottom: 92px;
+    }
+  }

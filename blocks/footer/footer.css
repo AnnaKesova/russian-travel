@@ -1,0 +1,21 @@
+.footer {
+    min-width: calc(186px + (720 - 186) * ((100vw - 320px) / (786 - 186)));
+  }
+  
+  @media screen and (min-width: 767px) {
+    .footer {
+      min-width: calc(720px + (928 - 720) * ((100vw - 786px) / (1024 - 768)));
+    }
+  }
+  
+  @media screen and (min-width: 1024px) {
+    .footer {
+      min-width: calc(928px + (1184 - 928) * ((100vw - 1024px) / (1280 - 1024)));
+    }
+  }
+  
+  @media screen and (min-width: 1280px) {
+    .footer {
+      min-width: 1184px;
+    }
+  }

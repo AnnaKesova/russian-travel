@@ -1,0 +1,17 @@
+.footer__margin {
+    margin-right: 18px;
+  }
+  
+  .footer__margin:last-of-type {
+    margin-right: 0;
+  }
+  
+  @media screen and (min-width: 320px) and (max-width: 767px) {
+    .footer__margin {
+      margin: 0 0 32px;
+    }
+  
+    .footer__margin:last-of-type {
+      margin: 0;
+    }
+  }

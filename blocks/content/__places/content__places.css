@@ -1,0 +1,24 @@
+.content__places {
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: calc(66px + (90 - 66) * ((100vw - 320px) / (768 - 320)));
+  }
+  
+  @media screen and (min-width: 768px) {
+    .content__places {
+      margin-bottom: calc(90px + (92 - 90) * ((100vw - 768px) / (1024 - 768)));
+    }
+  }
+  
+  @media screen and (min-width: 1024px) {
+    .content__places {
+      margin-bottom: 92px;
+    }
+  }
+  
+  @media screen and (min-width: 1280px) {
+    .content__places {
+      margin-bottom: 92px;
+    }
+  }

@@ -1,0 +1,21 @@
+.page__header {
+    margin: 0;
+    padding-top: calc(16px + (28 - 16) * ((100vw - 320px) / (768 - 320)));
+    margin-left: calc(16px + (24 - 16) * ((100vw - 320px) / (768 - 320)));
+    margin-right: calc(16px + (24 - 16) * ((100vw - 320px) / (768 - 320)));
+}
+
+@media screen and (min-width: 768px)  {
+    .page__header {
+          padding-top: 28px;
+          margin-left: calc(24px + (48 - 16) * ((100vw - 768px) / (1024 - 768)));
+          margin-right: calc(24px + (48 - 16) * ((100vw - 768px) / (1024 - 768)));
+      }   
+  }
+
+  @media screen and (min-width: 1024px)  {
+    .page__header {
+        margin-left: 48px;
+        margin-right: 48px;
+    }   
+}

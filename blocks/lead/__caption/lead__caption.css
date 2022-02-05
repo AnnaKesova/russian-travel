@@ -1,0 +1,29 @@
+.lead__caption {
+    max-width: 320px;
+    margin: 0 0 0 16px;
+    font-size: 10px;
+    line-height: 14px;
+    text-align: left;
+    font-weight: 400;
+    text-transform: uppercase;
+    align-self: flex-start;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .lead__caption {
+      margin-left: 24px;
+      max-width: 768px;
+    }
+  }
+  @media screen and (min-width: 1024px) {
+    .lead__caption {
+      min-width: 928px;
+      margin: 0 auto;
+    }
+  }
+  
+  @media screen and (min-width: 1280px) {
+    .lead__caption {
+      min-width: 984px;
+    }
+  }

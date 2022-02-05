@@ -1,0 +1,12 @@
+.place__link {
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: Left;
+    font-weight: 400;
+  }
+  
+  .place__link:hover {
+    filter: opacity(80%);
+  }
