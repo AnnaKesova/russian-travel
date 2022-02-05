@@ -1,4 +1,4 @@
-.place__link {
+.places__link {
     color: #ffffff;
     cursor: pointer;
     font-size: 18px;
@@ -7,6 +7,6 @@
     font-weight: 400;
   }
   
-  .place__link:hover {
+  .places__link:hover {
     filter: opacity(80%);
   }
