@@ -4,26 +4,22 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./index.css" />
+    <link rel="stylesheet" href="./pages/index.css" />
     <title>Путешествия по России</title>
   </head>
   <body>
     <div class="wrapper">
       <div class="wrapper__page page">
         <header class="page__header header">
-          <div class="header__logo">
               <img class="header__logo-photo" src="./images/header-logo.svg" alt="Логотип">
-          </div>
-          <nav class="header__nav">
             <ul class="header__list">
               <li class="header__lang">
-                <a href="#" class="header__lang-link" lang="en">Ru</a>
+                <a href="#" class="header__lang-link header__lang-link_active" lang="en">Ru</a>
               </li>
               <li class="header__lang">
                 <a href="#" class="header__lang-link" lang="en">En</a>
               </li>
             </ul>
-          </nav>
         </header>
         <main class="page__content content">
           <section class="content__lead lead">
@@ -54,19 +50,15 @@
               достойные вашего отпуска.
             </p>
             <ul class="intro__list">
-              <li><p class="intro__item">Часовых поясов 11</p></li>
-              <li>
-                <p class="intro__item">
-                  Объектов природного наследия ЮНЕСКО 12
-                </p>
+              <li class="intro__item"> <span class="intro__span-accent">Часовых поясов</span> 11</li>
+              <li class="intro__item">
+                <span class="intro__span-accent">Объектов природного наследия ЮНЕСКО</span> 12
               </li>
-              <li>
-                <p class="intro__item">
-                  Объектов культурного наследия ЮНЕСКО 16
-                </p>
+              <li class="intro__item">
+                <span class="intro__span-accent">Объектов культурного наследия ЮНЕСКО</span> 16
               </li>
-              <li><p class="intro__item">Природных заповедников 105</p></li>
-              <li><p class="intro__item">Аэропортов 241</p></li>
+              <li class="intro__item"><span class="intro__span-accent">Природных заповедников</span> 105</li>
+              <li class="intro__item"><span class="intro__span-accent">Аэропортов</span> 241</li>
             </ul>
           </section>
           <section class="content__photo-grid photo-grid">
@@ -132,7 +124,7 @@
             />
           </section>
 
-          <article class="content__places places">
+          <section class="content__places places">
             <ul class="places__list">
               <li class="places__place">
                 <h3 class="places__title">Куршская коса</h3>
@@ -286,7 +278,7 @@
                 </div>
               </li>
             </ul>
-          </article>
+          </section>
           <section class="content__cover cover">
             <a
               class="cover__link"
@@ -299,7 +291,7 @@
                 alt="Поезд"
               />
               <div class="cover__text">
-                <h3 class="cover__title">До Байкала «на&#160;собаках»</h3>
+                <h2 class="cover__title">До Байкала «на&#160;собаках»</h2>
                 <p class="cover__subtitle">
                   По мотивам учебной темы о Транссибе — путешествие от столицы
                   до Байкала на&#160;электричках.
