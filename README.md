@@ -16,4 +16,4 @@
 
 
 
-https://github.com/AnnaKesova/russian-travel.git
+https://annakesova.github.io/russian-travel/
